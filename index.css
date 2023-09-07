@@ -1,0 +1,184 @@
+* {
+    text-align: center;
+}
+body {
+    width: 675px;
+    /* height: 600px; */
+    display:flex;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    border: 1px;
+
+    /* justify-items: center;   */
+    background-size: cover;
+    background: hsla(241, 100%, 89%, 0);
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 10px hsl(221, 100%, 96%);
+    font-size: 18px;
+    font-family: 'Hanken Grotesk', sans-serif;
+
+}
+   /* padding-top: 100px; */
+ 
+/*  */ 
+/* assets/fonts/HankenGrotesk-VariableFont_wght.ttf */
+
+/* Blue half of the image */
+.blue-half {
+    width: 375px;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 30px;
+    /* padding: 40px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin-left: 60px; */
+}
+
+/* Title displaying 'Your Result' */
+.result-title{
+    color: hsl(241, 100%, 89%) ;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    /* padding: 50px;
+    padding-bottom: 50px; */
+    /* padding-top: 10px;
+    padding-bottom:10px; */
+}
+
+/* Circle showing result */
+/* 76 should have a large font size */
+.result-circle{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.score-76{
+    font-size: 60px;
+    color:white;
+    font-weight: bold;
+    margin: 0;
+}
+
+.result-total{
+    margin: 0;
+    color: hsl(241, 100%, 89%);
+}
+
+/* 'Great' should be bold */
+.result-compliment{
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.result-feedback{
+    color:hsla(241, 100%, 89%, 0.7);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+/* .white-text{
+    color:hsl(0, 0%, 100%);
+}
+
+.greyish-text{
+    color:hsla(241, 100%, 89%, 0.7);
+} */
+
+/* White half of the design */
+.white-half {
+    width: 375px;
+    background-image: white;
+    border-radius: 30px;
+    
+}
+ /* Content of the white half */
+.summary-cat {
+    padding: 40px;
+    text-align: left;
+}
+
+#summary{
+    color: hsl(224, 30%, 27%);
+    font-size: 20px;
+    font-weight: 900;
+    text-align: left;
+}
+
+.reaction {
+    color: hsla(0, 100%, 67%);
+    background: hsla(0, 100%, 67%, 0.1);
+    padding-top:  20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.memory{ 
+    color: hsla(39, 100%, 56%);
+    background: hsla(39, 100%, 56%, 0.1);
+    padding-top:  20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    /* Score part */
+/* #number {
+    color: 
+} */
+}
+
+.verbal{
+    color: hsla(166, 100%, 37%);
+    background: hsla(166, 100%, 37%, 0.1);
+    padding-top:  20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.visual{
+    color: hsla(234, 85%, 45%);
+    background: hsla(234, 85%, 45%, 0.1);
+    padding-top:  20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.button{
+    border-radius: 25px;
+    border: none;
+    color: white;
+    padding: 20px 100px;
+    background-color: hsl(224, 30%, 27%);
+    font-weight: bold;
+}
+
+
+
